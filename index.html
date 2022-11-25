@@ -291,7 +291,88 @@
           cursor: pointer;
         }
       }
-      @media screen and (min-width: 1380px) {
+      @media screen and (min-width: 1381px) and (max-width: 1780px) {
+        body {
+          background-image: url("./images/bg-desktop.svg");
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        section {
+          display: flex;
+          /* margin-top: 20px; */
+        }
+        main {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100vh;
+          padding: 0 70px 0 70px;
+        }
+        .hImg {
+          width: 160px;
+        }
+        .object-cover {
+          width: 680px;
+        }
+        .bodyP {
+          padding-left: 80px;
+        }
+        .hellow {
+          font-size: 40px;
+          font-weight: 600;
+          color: white;
+          font-family: "Poppins", sans-serif;
+          padding-top: 100px;
+        }
+        .pera {
+          font-family: "Open Sans", sans-serif;
+          color: white;
+          font-weight: 300;
+          font-size: 18px;
+          padding: 10px 0px 10px 0px;
+        }
+        .button {
+          background-color: white;
+          color: #674bb1;
+          padding: 6px 44px 10px 44px;
+          border-radius: 30px;
+          font-size: 18px;
+          border: none;
+          font-weight: 400;
+          box-shadow: 4px 4px 12px -4px black;
+          transition: 0.5s ease-in-out;
+        }
+        .button:hover {
+          background-color: #e980e7;
+          color: white;
+          box-shadow: -5px 4px 15px -1px black;
+          cursor: pointer;
+        }
+        footer {
+          display: flex;
+          gap: 14px;
+          justify-content: end;
+          align-items: end;
+        }
+        .svgIcon {
+          border: 1px solid rgb(255, 255, 255);
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          color: white;
+          font-size: 18px;
+          transition: 0.5s ease-in-out;
+        }
+        .svgIcon:hover {
+          border: 1px solid #fa53c3;
+          color: #fa53c3;
+          cursor: pointer;
+        }
+      }
+      @media screen and (min-width: 1781px) {
         body {
           background-image: url("../images/bg-desktop.svg");
           background-size: cover;
